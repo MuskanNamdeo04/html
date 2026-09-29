@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>AngularJs Directive Example</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js">
+</script>
+<body ng-app="">
+<div>
+<input type="text" ng-model="a_name">
+<p>Your name:{{a_name}}</p>
+</div>
+<div ng-init="employees=['suresh','ramesh','tanu']" >
+<p>Employee details</p>
+<ul>
+<li ng-repeat="name in employees">
+{{name}}
+</li>
+</ul>
+</div>
+</body>
+</html>
